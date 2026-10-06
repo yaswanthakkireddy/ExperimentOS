@@ -18,8 +18,8 @@ instead of handing them a p-value and leaving the interpretation to a meeting.
 <a href="https://huggingface.co/spaces/yaswtutu/ExperimentOS">
   <img alt="Hugging Face Space" src="https://img.shields.io/badge/Hugging%20Face-Space-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black">
 </a>
-<a href="https://github.com/yaswankum2622-code/ExperimentOS/actions">
-  <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/yaswankum2622-code/ExperimentOS/ci.yml?style=for-the-badge&label=Tests&logo=github&logoColor=white">
+<a href="https://github.com/yaswanthakkireddy/ExperimentOS/actions">
+  <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/yaswanthakkireddy/ExperimentOS/ci.yml?style=for-the-badge&label=Tests&logo=github&logoColor=white">
 </a>
 <a href="https://python.org">
   <img alt="Python" src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white">
@@ -45,7 +45,7 @@ instead of handing them a p-value and leaving the interpretation to a meeting.
 
 ExperimentOS is built on the UCI Online Retail II dataset: real UK e-commerce transaction data with real users, countries, invoices, products, revenue, and uneven behavior. The app loads the raw Excel file into SQLite, simulates realistic browsing and cart events, runs statistical analysis, and presents the result as a working Streamlit dashboard.
 
-If the live Space is sleeping, the first load can take a little longer because the app regenerates the SQLite database from the Excel dataset when needed.
+The app can be run locally from this repository; hosted-demo references are omitted while the public Space is unavailable.
 
 ---
 
@@ -62,7 +62,7 @@ ExperimentOS fixes that workflow with a small, end-to-end experimentation system
 - dbt-style metric registry
 - GitHub Actions gate for metric definition changes
 - Gemini-powered decision memo generation
-- Streamlit dashboard ready for Hugging Face Spaces
+- Streamlit dashboard for local or hosted deployment
 
 The project uses the UCI Online Retail II dataset: real UK e-commerce transactions from 2009 to 2011. The data has real users, real countries, real revenue, seasonal patterns, outliers, and uneven behavior. That makes the analysis more useful than a synthetic demo.
 
@@ -208,7 +208,7 @@ This reduces variance and lowers the sample size needed for the same statistical
 ## Run Locally
 
 ```bash
-git clone https://github.com/yaswankum2622-code/ExperimentOS.git
+git clone https://github.com/yaswanthakkireddy/ExperimentOS.git
 cd ExperimentOS
 
 pip install -r requirements.txt
