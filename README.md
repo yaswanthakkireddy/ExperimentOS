@@ -12,12 +12,6 @@ instead of handing them a p-value and leaving the interpretation to a meeting.
 
 <br>
 
-<a href="https://yaswtutu-experimentos.hf.space">
-  <img alt="Live App" src="https://img.shields.io/badge/Open%20Live%20App-534AB7?style=for-the-badge&logo=streamlit&logoColor=white">
-</a>
-<a href="https://huggingface.co/spaces/yaswtutu/ExperimentOS">
-  <img alt="Hugging Face Space" src="https://img.shields.io/badge/Hugging%20Face-Space-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black">
-</a>
 <a href="https://github.com/yaswanthakkireddy/ExperimentOS/actions">
   <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/yaswanthakkireddy/ExperimentOS/ci.yml?style=for-the-badge&label=Tests&logo=github&logoColor=white">
 </a>
